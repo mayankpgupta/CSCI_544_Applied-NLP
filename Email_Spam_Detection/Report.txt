@@ -1,0 +1,31 @@
+Assignment 1 Report
+
+Name: Mayank Gupta
+
+1. Performance on the development data with 100% of the training data
+1a. spam precision: 0.993088194636439
+1b. spam recall: 0.9774149659863945
+1c. spam F1 score: 0.9851892484914975
+1d. ham precision: 0.9467265725288831
+1e. ham recall: 0.9833333333333333
+1f. ham F1 score: 0.9646827992151734
+
+2. Performance on the development data with 10% of the training data
+2a. spam precision: 0.9929458239277652
+2b. spam recall: 0.9575510204081633
+2c. spam F1 score: 0.9749272752458789
+2d. ham precision: 0.9043531575720417
+2e. ham recall: 0.9833333333333333
+2f. ham F1 score: 0.9421909932928776
+
+3. Description of enhancement(s) you tried (e.g., different approach(es) to smoothing, treating common words differently, dxealing with unknown words differently):
+
+I tried removing stop words both by using my own list of stop words as well as using NLTK's built-in stopwords. I also tried using stemming & lemmatization for valid dictionary generation. Further, I applied the generalized version of Additive smoothing for a value of lambda = 3
+
+4. Best performance results based on enhancements. Note that these could be the same or worse than the standard implementation.
+4a. spam precision: 0.991157778391821
+4b. spam recall: 0.9760544217687075
+4c. spam F1 score: 0.983548121743899
+4d. ham precision: 0.9434447300771208
+4e. ham recall: 0.9786666666666667
+4f. ham F1 score: 0.9607329842931938
