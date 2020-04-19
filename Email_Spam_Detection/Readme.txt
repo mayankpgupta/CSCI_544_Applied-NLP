@@ -1,1 +1,1 @@
-Spam or Ham detection using Naive Bayes Classifier
+Spam or Ham detection using Naive Bayes Classifier.
